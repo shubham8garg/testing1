@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
+<head>
+<script type="text/javascript">
+   function mish() {
+      document.getElementById("about").innerHTML = '<h2>Header am I.</h2><p>Paragraph am I and too.</p>';
+    }
+</script>
+</head>
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
-<a href="https://shubham8garg.github.io/testing1/dashboard1">Visit our Dashboard</a>
+    <li><a onclick="javascript:mish();">Click me</a>
+    </li>
+    <div id="about">
+         <h2>Im a header.</h2>    
+         <p>And Im a paragraph!</p>
+    </div>
 </body>
 </html>
